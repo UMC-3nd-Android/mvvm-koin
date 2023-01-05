@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">umcWEEK3</string>
+
+    <!-- 1페이지 -->
+    <string name="menu_one">1페이지</string>
+    <string name="main_text">텍스트를 입력해 주세요</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="random_page_button">랜덤 페이지 보기</string>
+    <string name="initial_random_number">1</string>
+    <string name="generate_random_number">랜덤 숫자 만들기(1~4)</string>
+
+    <!-- 2페이지 -->
+    <string name="menu_two">2페이지</string>
+
+    <!-- 3페이지 -->
+    <string name="menu_three">3페이지</string>
+
+    <!-- 4페이지 -->
+    <string name="menu_four">4페이지</string>
+
+    <!-- 하드텍스트 회피 -->
+    <string name="title">Title</string>
+</resources>
