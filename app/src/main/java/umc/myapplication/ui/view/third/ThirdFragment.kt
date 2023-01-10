@@ -18,15 +18,12 @@ class ThirdFragment : BaseFragment<FragmentThirdBinding, ThirdViewModel>() {
     override val viewModel: ThirdViewModel by viewModel()
 
     override fun initAfterBinding() {
-        TODO("Not yet implemented")
     }
 
     override fun initBeforeBinding() {
-        TODO("Not yet implemented")
     }
 
     override fun initView() {
-        TODO("Not yet implemented")
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

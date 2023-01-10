@@ -17,15 +17,12 @@ class SecondFragment : BaseFragment<FragmentSecondBinding, SecondViewModel>() {
     override val viewModel: SecondViewModel by viewModel()
 
     override fun initAfterBinding() {
-        TODO("Not yet implemented")
     }
 
     override fun initBeforeBinding() {
-        TODO("Not yet implemented")
     }
 
     override fun initView() {
-        TODO("Not yet implemented")
     }
 
     override fun onCreateView(

@@ -67,6 +67,7 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>() {
         supportFragmentManager.popBackStack()
         supportFragmentManager.beginTransaction()
             .replace(R.id.container_main, firstFragment)
+            .commit()
         binding.tvTitle.text = getString(R.string.menu_one)
         binding.tvTitle.visibility = View.VISIBLE
         binding.tvTitle.setTextColor(Color.BLACK)
@@ -76,6 +77,7 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>() {
         supportFragmentManager.popBackStack()
         supportFragmentManager.beginTransaction()
             .replace(R.id.container_main, secondFragment)
+            .commit()
         binding.tvTitle.text = getString(R.string.menu_two)
         binding.tvTitle.visibility = View.VISIBLE
         binding.tvTitle.setTextColor(Color.BLACK)
@@ -85,6 +87,7 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>() {
         supportFragmentManager.popBackStack()
         supportFragmentManager.beginTransaction()
             .replace(R.id.container_main, thirdFragment)
+            .commit()
         binding.tvTitle.text = getString(R.string.menu_three)
         binding.tvTitle.visibility = View.VISIBLE
         binding.tvTitle.setTextColor(Color.BLACK)
@@ -94,6 +97,7 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>() {
         supportFragmentManager.popBackStack()
         supportFragmentManager.beginTransaction()
             .replace(R.id.container_main, fourthFragment)
+            .commit()
         binding.tvTitle.text = getString(R.string.menu_four)
         binding.tvTitle.visibility = View.VISIBLE
         binding.tvTitle.setTextColor(Color.BLACK)

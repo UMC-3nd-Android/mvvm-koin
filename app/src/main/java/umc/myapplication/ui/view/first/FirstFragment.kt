@@ -28,14 +28,14 @@ class FirstFragment : BaseFragment<FragmentFirstBinding, FirstViewModel>() {
     }
 
     override fun initView() {
-        TODO("Not yet implemented")
+
     }
 
     override fun initAfterBinding() {
-        TODO("Not yet implemented")
+
     }
 
     override fun initBeforeBinding() {
-        TODO("Not yet implemented")
+
     }
 }

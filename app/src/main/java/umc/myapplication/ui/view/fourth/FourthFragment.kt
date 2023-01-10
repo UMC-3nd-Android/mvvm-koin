@@ -17,15 +17,12 @@ class FourthFragment : BaseFragment<FragmentFourthBinding, FourthViewModel>() {
     override val viewModel: FourthViewModel by viewModel()
 
     override fun initAfterBinding() {
-        TODO("Not yet implemented")
     }
 
     override fun initBeforeBinding() {
-        TODO("Not yet implemented")
     }
 
     override fun initView() {
-        TODO("Not yet implemented")
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
